@@ -1,0 +1,32 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 20px;
+}
+.header{
+    background-color: pink;
+    height: 50px;
+    width: 100%;
+    text-align: center;
+    border: 1px solid;
+    padding: 5px;
+}
+.section
+{
+    background-color: pink;
+    height: 200px;
+    width: 100%;
+    text-align: left;
+    border: 1px solid;
+    padding: 5px;
+}
+.footer
+{
+    background-color: pink;
+    height: 50px;
+    width: 100%;
+    text-align: center;
+    border: 1px solid;
+    padding:  5px;
+}
