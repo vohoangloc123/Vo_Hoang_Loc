@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            width: 960px;
+            margin: 0 auto;
+            /* border: 1px solid black; */
+        }
+
+        #header {
+            height: 110px;
+          background-image: url(image/Capture1.PNG);
+        }
+
+        #menu ul {
+           background-color: rgba(0, 0, 0, 0.466);
+           list-style-type: none;
+           overflow: hidden;
+           width: 100%;
+           color: fuchsia;
+        }
+        #menu li{
+            color: aliceblue;
+            display: inline-block;
+            line-height: 30px;
+            width: 100px;
+            height: 50px;
+          
+
+        }
+      
+        #content {
+            width: 70%;
+            height: 500px;  /* option */
+            border: 1px solid black;
+            float: left;
+
+        }
+        
+       
+
+        #section {
+            width: 30%;
+            height: 500px;  /* option */
+            border: 1px solid black;
+            float: right;
+        }
+        #section li{
+            list-style-type: none;
+            border-bottom: 1px solid whitesmoke;
+           
+        }
+        #footer {
+            clear: both;
+            width: 100%;
+            height: 30px;
+            border: 1px solid black;
+            background-color: rgba(0, 0, 0, 0.466);
+       
+        }
+
+        figure{
+            border: 1px solid black;
+            float: left;
+        }
+
+        img {
+            width: 200px;
+        }
+
+        .row {
+            clear: both;
+        }
+    </style>
+</head>
+<body>
+    <div id="header"></div>
+    <div id="menu">
+        <ul>
+      <li>home</li>
+      <li>classes</li>
+      <li>catering</li>
+      <li>about</li>
+      <li>contact</li>
+        </ul>
+    </div>
+    
+    <div id="content">
+
+        <div class="row">
+            <figure>
+                <img src="image/Fd1.PNG" alt="">
+                <figcaption>Bok Choi</figcaption>
+            </figure>
+
+            <h1>Japanese Vegetarian</h1>
+            <p style="color: hotpink;">Five week couse in London</p>
+            <p>A five week introduction to traditional Japanese vegetarian meals, teaching you a selection of rice and noodle dishes</p>
+        </div>
+
+        <div class="row">
+            <figure>
+                <img src="image/fd2.PNG">
+                <figcaption>Tarayaki Sauce</figcaption>
+            </figure>
+
+            <h1>Sauce Materclass</h1>
+            <p style="color: hotpink;">One day work shop</p>
+            <p>An intensive one-day course looking at how to create the most delicious sauces for use in a range of Japanese cookery</p>
+        </div>
+
+    </div>
+    <div id="section">
+    <h2 style="color: hotpink;"> Popular Recipes</h2>
+    <ul>
+        <h3 style="color: hotpink;"><li>Yakitori <br>(grilled chicken).</li><br>
+            <li>Tsukune(minced chicken patties).</li><br>
+            <li>Okonomiyaki(savary pances)i.</li><br>
+            <li>Mizutaki(chicken stew).</li> </h3><br>
+        
+    </ul>
+    <h2 style="color: hotpink;">Contact</h2>
+    <ul>
+        <h3>
+            <li> Yoko Kitchen</li>
+            <li> 27 Redchurch Streat Shoreditch London E2 7DP</li>
+        </h3>
+    </ul>
+    </div>
+    <div id="footer">@ 2011 Yoko Kitchen</div>
+</body>
+</html>

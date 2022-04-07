@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+    *{
+        padding: 0;
+        margin : 0;
+        box-sizing: border-box;
+    }
+    a{
+        text-decoration: none;
+    }
+    header{
+        padding-top: 0px;
+        text-align: center;
+    }
+    header #logo  img{
+        padding-bottom: 0px;
+        margin-bottom: -40px;
+        margin-top: 20;
+        text-align: center;
+    }
+    header #logo p{
+        text-align: center;
+        padding-top: 0px;
+        text-transform: uppercase;
+        color: #111111;
+        font-weight: normal;
+    }        
+    nav{
+        margin-top: 20px;
+        background-color: rgb(70, 73, 73);
+        height: 40px
+    }
+    nav ul li{
+        display: inline-block;
+        padding: 0px 22px;
+        list-style: none;
+    }
+    nav ul li a{
+        display: block;
+        width: 100px;
+        text-align: center;
+        text-decoration: none;
+        color: white;  
+        line-height: 40px;
+        height: 40px;
+    }
+    nav ul li a img{
+        text-align: center;
+        height: 20px;
+        line-height: 20px;
+    }
+    nav ul li a:hover{
+        background-color: rgb(48, 238, 48);
+    }
+    section{
+        display: block;
+        margin : 0px 20px 20px 0px;
+    }
+    section .container{
+        height: 100%;
+        float: left;
+        background-color: rgb(197, 206, 206);
+    }
+    section .container h2{
+        height: 50px;
+        color: rgb(59, 58, 58);
+        margin-top: 15px;
+    }
+    section  .container a{
+        color: #111111;
+        font-size: 20px;
+        font-weight: normal;
+        margin: 20px 20px;
+    }
+    section .container a:hover{
+        background-color: grey;
+    }
+    section .main-mean{
+        padding: 20px;
+        float: left;
+        width: 80%
+
+    }
+    section .main-mean .top-api{
+        width: 100%;
+        height: 150px;
+    }
+    section .main-mean p{
+        font-size: 40px;
+        color: #111111;
+        font-weight: normal;
+    }
+    section .main-mean .content{
+     font-size: 25px;
+     padding-top: 20px;
+     display: block;
+    }
+    section .main-mean .content #s1{
+        color: rgb(75, 245, 75);
+        float: left;
+    }
+    section .main-mean .content #s2{
+        color: rgb(75, 245, 75);
+        float: right;
+        margin-right: 120px;
+    }
+    section .main-mean .content a{
+        color: rgb(107, 199, 22);
+    }
+    section .main-mean .content2{
+        padding-top: 50px;
+        padding-bottom: 170px;
+        border-bottom: 2px solid grey;
+    }
+    section .main-mean .content2 div{
+        float: left;
+    }
+    section .main-mean .content2 p{
+        float: right;
+        font-size: 25px;
+        font-weight: normal;
+        padding-right: 150px;
+    }
+    section .main-mean .content-end p{
+        font-size: 25px;
+    }
+    section .main-mean .content-end h3{
+        padding-top: 10px;
+        font-weight: normal;
+        font-size: 35px;
+    }
+    </style>
+</head>
+<body>
+    <header>
+        <div id="logo">
+           <img width="250" src="w3school.png" alt="">
+            <p>The World's largest web developer site</p>            
+        </div>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#"><img src="" alt=""></a></li>
+            <li><a href="#">HTML</a> </li>
+            <li><a href="#">CSS</a></li>
+            <li><a href="#">JAVASCRIPT</a></li>
+            <li><a href="#">TUTORIAL</a></li>
+            <li><a href="#">REFERENCES</a></li>
+            <li><a href="#">EXAMPLE</a></li>
+            <li><a href="#"><img src="" alt=""></a></li>
+            <li><a href="#"><img src="" alt=""></a></li>
+        </ul>
+    </nav>
+    <section>
+        <div class="container">
+            <h2>HTML Tutorial</h2>
+            <div><a href="#">HTML Home</a></div>
+            <div><a href="#">HTML Home</a></div>
+            <div><a href="#">HTML Introduction</a></div>
+            <div><a href="#">HTML Editors</a></div>
+            <div><a href="#">HTML Basic</a></div>
+            <div><a href="#">HTML Element </a></div>
+            <div><a href="#">HTML Attributes</a></div>
+            <div><a href="#">HTML Headings</a></div>
+            <div><a href="#">HTML Paragraphs</a></div>
+            <div><a href="#">HTML Styles</a></div>
+            <div><a href="#">HTML Formatting</a></div>
+            <div><a href="#">HTML Quotations</a></div>
+            <div><a href="#">HTML Computercode</a></div>
+            <div><a href="#">HTML Comments</a></div>
+            <div><a href="#">HTML CSS</a></div>
+            <div><a href="#">HTML Links</a></div>
+            <div><a href="#">HTML Images</a></div>
+            <div><a href="#">HTML Tables</a></div>
+            <div><a href="#">HTML Lists</a></div>
+            <div><a href="#">HTML Blocks</a></div>
+        </div>
+        <div class="main-mean">
+             <img class="top-api"src="images/fileapi.JPG" alt="">
+            <p>HTML (5) Tutorial</p>
+             <div class="content"> 
+                <div id="s1">
+                    <a href="#"> <img width="30" height="20" src="" alt="">W3School Home </a>
+                </div>
+                <div id="s2">
+                    <a href="#">Next Chapter <img width="20" height="20" src="i" alt=""></a>
+                </div>
+            </div>
+            <div class="content2">
+                <div>
+                    <img width="100px" height="130px" src="" alt="">
+                </div>
+                <p>With HTML you can create your own Web site. <br>This tutorial teaches you everything about HTML. <br>HTML is easy to learn - You will enjoy it.</p>
+            </div>
+            <div class="content-end">
+                <h3>Examples in Every Chapter</h3>
+                <p>This HTML tutorial contains hundreds of HTML examples</p>
+            </div>  
+        </div>
+    </section>
+</body>
+</html> 

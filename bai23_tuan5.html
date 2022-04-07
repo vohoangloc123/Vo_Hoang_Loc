@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *
+        {
+            box-sizing: border-box;
+            margin: 0 auto;
+        }
+        body
+        {
+            width: 900px;
+            border: 1px solid gray;
+        }
+        .header
+        {
+            width: 100%;
+            height: 150px;
+            background-color: rgb(248, 246, 241);
+            position: relative;
+        }
+        .header h2
+        {
+            color: rgb(167, 45, 45);
+            position: absolute;
+            top: 10px;
+            right: 250px;
+        }
+        .menu-parent
+        {
+            display: flex;
+            list-style: none;
+            position: absolute;
+            top: 60px;
+            right: 150px;
+
+        }
+        .menu-parent a
+        {
+            display: block;
+            color: azure;
+            list-style-type: none;
+            text-decoration: none;
+            background-color: rgb(167, 45, 45);
+            padding: 10px 20px;
+        }
+        .aside
+        {
+            width: 100%;
+            height: 400px;
+            background-color: gray;
+            position: relative;
+        }
+        .aside form1
+        {
+            position: absolute;
+            top: 200px;
+            left:20px
+        
+        }
+        .aside form2
+        {
+            position: absolute;
+            top: 200px;
+            left:340px
+        }
+        .aside form3
+        {
+            position: absolute;
+            top:200px;
+            left:600px
+        }
+        .aside form4
+        {
+            position: absolute;
+            top:200px;
+            left:800px
+        }
+        .aside span
+        {
+            position: absolute;
+            top: 1px;
+            right: 300px;
+        }
+        .aside total
+        {
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h2>Web Programming Competition</h2>
+        <ul class="menu-parent">
+            <li><a href="">HOME </a></li>
+            <li><a href="">MATERIALS</a></li>
+            <li><a href="">Competition</a></li>
+            <li><a href="">PAST YEARS</a></li>
+            <li><a href="">ABOUT</a></li>
+        </ul>
+    </div>
+    <div class="aside">
+        <form action="">
+            <span>
+                <h1 style="color: white;">&emsp;CSS Course</h1> <br> <br>
+                <h2 style="color: rgb(167, 45, 45);">Learn Web Programming</h2>
+            </span>
+            <total>
+                <form1><h2>Comprehensive
+                    <br> Curriculum</h2></form1>
+                <form2><h2>Insighful <br> Guest Lectures</h2></form2>
+                <form3><h2 style="color: rgb(167, 45, 45);">Interaction <br> with Sponsor</h2></form3>
+                <form4><h2>$30,000+ in <br> Total Prizes</h2></form4>
+            </total>
+        </form>
+    </div>
+</body>
+</html>

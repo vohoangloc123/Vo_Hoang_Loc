@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *
+        {
+            box-sizing: border-box;
+            margin: 0 auto;
+        }
+        body
+        {
+            width: 900px;
+        }
+        .header
+        {
+            width: 100%;
+            background-color: gray;
+            height: 150px;
+        }
+        .header h1
+        {
+            color: white;
+            float: left;
+        }
+        .aside
+        {
+            width: 30%;
+            height: 400px;
+            background-color: rgb(167, 160, 160);
+            float: left;
+            position: relative;
+        }
+        .content
+        {
+            width: 70%;
+            height: 400px;
+            background-color: white;
+            float: right;
+            border-bottom: 1px solid black ;
+            border-right: 1px solid black ;
+            position: relative;
+        }
+        .content img
+        {
+            position: absolute;
+            top: 70px;
+            left: 10px;
+        }
+        .content form
+        {
+            position: absolute;
+            top: 70px;
+            left: 120px;
+        }
+        .content form1
+        {
+            position: absolute;
+            top: 200px;
+            left: 20px;
+        }
+        .content form2
+        {
+            position: absolute;
+            top: 300px;
+            left: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>Cascading Style Sheets</h1>
+    </div>
+    <div class="aside">
+        <h2>Navigation</h2>
+        <a href="">Examples index</a>
+    </div>
+    <div class="content">
+        <h2>CSS positioning</h2>
+        <img src="logobai22.png" alt="">
+        <form action="">
+            <p><b>This article introduces the topic of laying out web pages in CSS using a combination of positioning schemes.</b></p>
+            <br>
+            <p>CSS allows you to use three different positioning scheme to create complex layouts</p>
+
+        </form>
+
+            <form1>
+            <ul type="Circle">
+                <li>Normal flow</li>
+                <li>Absolute positioning</li>
+                <li>Floating</li>
+            </ul>
+            </form1>
+            <form2>
+                <p>By using a combination of these schemes you do do not need to resort to using tables to lay out your pages</p>
+            </form2>
+    </div>
+</body>
+</html>

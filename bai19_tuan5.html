@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *
+        {
+            box-sizing: border-box;
+            margin: 0 auto;
+        }
+        body
+        {
+            width: 900px;
+            position: relative;
+        }
+        .header
+        {
+            background-color: rgb(160, 134, 134);
+            width: 100%;
+            height: 200px;
+        }
+        .menu-parent
+        {
+            display: flex;
+            position: absolute;
+            bottom: 0;
+            list-style: none;
+            right: 10px;
+        }
+        .menu-parent a
+        {
+            display: block;
+            color: white;
+            background-color: rgb(46, 42, 42);
+            text-decoration: none;
+            padding: 10px 55px;
+            
+        }
+        .menu-child
+        {
+            display: block;
+        }
+        .menu-child li:hover .menu-parent
+        {
+            display: block;
+            margin-left: -50px ;
+            position: absolute;
+        }
+        .menu-parent a:hover
+        {
+            background-color: greenyellow;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <ul class="menu-parent">
+            <li><a href="">Home</a></li>
+            <li><a href="">Introdution>></a></li>
+            <li><a href="">Portfolio >></a>
+                <ul class="menu-child">
+                    <li><a href="">Photography</a></li>
+                    <li><a href="">Web & User Interface Deisign</a></li>
+                    <li><a href="">lllustration</a></li>
+                </ul>
+            </li>
+            <li><a href="">News</a></li>
+            <li><a href="">Contact</a></li>
+        </ul>
+    </div>
+</body>
+</html>
